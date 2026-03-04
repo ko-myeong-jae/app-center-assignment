@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Input</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Input Tag</legend>
+        <ul>
+          <li>
+            <lable for="text">text</lable>
+            <input type="text" id="text" required value="dfsdadf" readonly />
+          </li>
+          <li>
+            <lable for="email">이메일</lable>
+            <input type="email" id="email" required value="HELLO" disabled />
+          </li>
+          <li>
+            <lable for="tel">전화번호</lable>
+            <input type="tel" id="tel" required autofocus />
+          </li>
+          <li>
+            <lable for="url">URL</lable>
+            <input
+              type="url"
+              id="url"
+              required
+              placeholder="url을 입력해주세요"
+            />
+          </li>
+          <li>
+            <lable for="number">number</lable>
+            <input type="number" id="number" required min="5" max="10" />
+          </li>
+          <li>
+            <lable for="range">range</lable>
+            <input type="range" id="range" required />
+          </li>
+          <li>
+            <lable for="password">password</lable>
+            <input type="password" id="password" required />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>날짜 관련</legend>
+        <ul>
+          <li>
+            <label for="date">date</label>
+            <input type="date" id="date" min="2021-07-10" max="2021-07-20" />
+          </li>
+          <li>
+            <label for="month">month</label>
+            <input type="month" id="month" />
+          </li>
+          <li>
+            <label for="week">week</label>
+            <input type="week" id="week" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>시간 관련</legend>
+        <ul>
+          <li>
+            <label for="time">time</label>
+            <input type="time" id="time" min="16:00" max="20:00" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>그 외</legend>
+        <ul>
+          <li>
+            <input type="file" multiple />
+          </li>
+          <li>
+            <input type="hidden" name="" value="" />
+          </li>
+        </ul>
+      </fieldset>
+      <input type="submit" value="제출하기" />
+    </form>
+  </body>
+</html>
