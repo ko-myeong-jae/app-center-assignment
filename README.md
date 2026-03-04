@@ -42,3 +42,6 @@
 1. 이 저장소를 클론(Clone)합니다.
    ```bash
    git clone [https://github.com/ko-myeong-jae/app-center-assignment.git](https://github.com/ko-myeong-jae/app-center-assignment.git)
+
+2. VS Code에서 폴더를 엽니다.
+3. HTML 파일에서 우클릭 후 **'Open with Live Server'**를 선택하여 실행합니다.
